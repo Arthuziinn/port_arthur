@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: gainsboro;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  section#title{
+    background-color: gainsboro;
+    color:black;
+    line-height: 0.5;
+    padding: 20px;
+  }
+
+  section#dados{
+      font-size: 16px;
+      color: black;
+      background-color:gainsboro;
+      padding: 20px;
+  }
+
+  section#dados a{
+    font-size: 16px;
+    color: black;
+    background-color:gainsboro;
+  }
+
+  section#objetivos h2{
+    color: black;
+    line-height: 2;
+    margin-left: 20px;
+  }
+
+  section#objetivos p{
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  section#cursos h2{
+    line-height: 2;
+    margin-left: 20px;
+  }
+
+  section#cursos h3{
+    line-height: 2.2;
+    font-size: 19px;
+    margin-left: 20px;
+  }
+
+  section#cursos p{
+    line-height: 1.5;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  section#complementos h2{
+    line-height: 2;
+    margin-left: 20px;
+  }
+
+  section#complementos h4{
+    line-height: 1.5;
+    font-size: 19px;
+    margin-left: 20px;
+  }
+
+  section#complementos p{
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  section#idiomas h2{
+    line-height: 2;
+    margin-left: 20px;
+  }
+
+  section#idiomas p{
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  section#softwares h2{
+    line-height: 2;
+    margin-left: 20px;
+  }
+  
+  section#softwares p{
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 2;
+  }
+
+  .foto-section {
+    flex: 1;
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 65px;
+  }
+  
+  .foto-section img {
+    width: 170px;
+    max-width: 170px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #000;
+  }
+
+ #linha-horizontal {
+    position: absolute;
+    display: flex;
+    width: 1300px;
+    right: 35px;
+    top: 240px;
+    border: 1px solid #000;
+  }
+  
+  .navbar {
+    background-color: #000000;
+    padding: 1rem;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
